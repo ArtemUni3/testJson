@@ -294,24 +294,5 @@
         }
       ]
     }
-  },
-  "Notification_Sequence": {
-    "Enable_Notification_Sequence": true,
-    "Notification_Sequence_Toggle": true,
-    "Notification_Sequence_Toggle_Label": "Order Alerts",
-    "Notifications": [
-      {
-        "Title": "Notification Title 1",
-        "Content": "Notification Content 1",
-        "URL": "https://coastalanglermag.com/the-angler-video-magazine/",
-        "Timer": "15"
-      },
-      {
-        "Title": "Notification Title 2",
-        "Content": "Notification Content 2",
-        "URL": "https://www.amazon.com/",
-        "Timer": "20"
-      }
-    ]
   }
 }
