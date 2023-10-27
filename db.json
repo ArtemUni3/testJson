@@ -231,7 +231,7 @@
   },
   "Deep_Linking": {
     "Allow_Deep_Linking": false
-  }
+  },
   "Login": {
     "Modal_Login_Enabled": false,
     "Exit_Login_Button_Enabled": false,
