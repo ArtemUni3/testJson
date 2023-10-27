@@ -231,39 +231,7 @@
   },
   "Deep_Linking": {
     "Allow_Deep_Linking": false
-  },
-  "Code_Injecting": {
-    "Enable_Injecting": true,
-    "Code_Injecting_Items": [
-      {
-        "Regex": "https://artemmana3\\.github\\.io/*",
-        "Code": "function mlDetectClick(text) {  const CANCEL_STRINGS = ['Empty cart', 'Complete purchase'];   const SCHEDULE_STRINGS = ['Add to cart'];      if (CANCEL_STRINGS.includes(text)) {    nativeFunctions.cancelLocalNotifications();   } else if (SCHEDULE_STRINGS.includes(text)) {    nativeFunctions.scheduleLocalNotifications();   } }  document.addEventListener('click', e => {  const buttonText = e.target.innerText;  mlDetectClick(buttonText) });",
-        "Code_Url": null,
-        "Type": "JS"
-      },
-      {
-        "Regex": null,
-        "Code_Url": null,
-        "Type": "CSS"
-      },
-      {
-        "Regex": "https://artemmana3\\.github\\.io/*",
-        "Code_Url": null,
-        "Type": "JS",
-        "Code": "<style>body { background-color: red !important; }</style>"
-      },
-      {
-        "Regex": "https://www.mediatrends.io/category/digital-media/",
-        "Code_Url": null,
-        "Type": "CSS",
-        "Code": "<style>body { background-color: blue !important; }</style>"
-      },
-      {
-        "Regex": "https://www.mediatrends.io/category/media-innovation/",
-        "Code": "<style>body { background-color: coral !important; }</style>"
-      }
-    ]
-  },
+  }
   "Login": {
     "Modal_Login_Enabled": false,
     "Exit_Login_Button_Enabled": false,
